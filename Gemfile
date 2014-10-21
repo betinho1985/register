@@ -38,7 +38,8 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'lead', :path => "/home/carlos/RubymineProjects/lead"
+gem 'lead', git: 'git@github.com:betinho1985/lead'
+#gem 'lead', git: 'git@github.com:somadl/poseidon.git'
 
 #gem 'activesupport'
 gem 'devise'
