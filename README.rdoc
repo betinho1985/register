@@ -6,23 +6,23 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+    tt>ruby 2.1.3</tt>.
 * System dependencies
-
-* Configuration
+    tt>Rails 4.1.6</tt>
 
 * Database creation
+    tt> rake db:migrate</tt>
 
-* Database initialization
+* About System
+    This system has initial screen for registratio of users. This screen ,show for user two options. One option for sign in and one options for sign up.
+    - Sign in: Is necessary insert  existing e-mail and password
+    - Sign up:  Is necessary inform e-mail, senha and company, for create a new access.
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
+    After login:
+        Two new options are enabled in the menu.
+            Contacts -> List of registered contacts
+                Display all contacts associated with login user
+            New Contacts -> register new contact
+                New contacts are save with company of the user, existing in user params.
 * ...
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
