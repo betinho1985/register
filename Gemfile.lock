@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/betinho1985/lead.git
-  revision: 6fee0b8f55ad88069f94aa32561c5851d766a3e0
+  revision: 7f142ec5b222b451f140a9640e797a7241734466
   specs:
-    lead (0.0.1)
+    lead (0.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -66,7 +66,7 @@ GEM
     jwt (1.0.0)
     mail (2.6.1)
       mime-types (>= 1.16, < 3)
-    mime-types (2.4.2)
+    mime-types (2.4.3)
     minitest (5.4.2)
     multi_json (1.10.1)
     multi_xml (0.5.5)

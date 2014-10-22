@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 20141021034635) do
     t.string   "email",            null: false
     t.string   "crypted_password", null: false
     t.string   "salt",             null: false
+    t.string   "company",          null: false
     t.datetime "created_at"
     t.datetime "updated_at"
   end

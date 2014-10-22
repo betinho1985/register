@@ -23,6 +23,7 @@ class ContactsController < ApplicationController
   def create
     params.permit!
     @contact = Contact.new( params[:contact])
+    @contact.client = current_user.company
     if(Lead.contact(@contact))
 
       respond_to do |format|

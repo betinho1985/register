@@ -32,10 +32,13 @@ class UsersController < ApplicationController
   def create
     params.permit!
     @user = User.new(params[:user])
-    @user.save
+
     respond_to do |format|
-      format.html
-      format.json { render json: @user }
+      if @user.save
+        format.html { redirect_to  "#{users_url}", notice: 'Contact was successfully created.' }
+      else
+        format.html { redirect_to  "#{users_url}", alert: @user.errors.full_messages.join('. ') }
+      end
     end
   end
 
