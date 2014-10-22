@@ -38,8 +38,7 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'lead', git: 'git@github.com:betinho1985/lead'
-#gem 'lead', git: 'git@github.com:somadl/poseidon.git'
+gem 'lead', git: 'https://github.com/betinho1985/lead.git'
 
 #gem 'activesupport'
 gem 'devise'

@@ -1,5 +1,6 @@
-PATH
-  remote: /home/carlos/RubymineProjects/lead
+GIT
+  remote: https://github.com/betinho1985/lead.git
+  revision: 6fee0b8f55ad88069f94aa32561c5851d766a3e0
   specs:
     lead (0.0.1)
 
